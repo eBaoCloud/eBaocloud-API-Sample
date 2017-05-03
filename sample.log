@@ -1,0 +1,261 @@
+2017-05-03 16:02:30.298  INFO 26704 --- [main] com.ebaocloud.sample.Main                : Starting Main on ubuntu with PID 26704 (/home/ggg/eBaoCloud-SEA/Sample/api-sample/build/classes/main started by ggg in /home/ggg/eBaoCloud-SEA/Sample/api-sample)
+2017-05-03 16:02:30.305  INFO 26704 --- [main] com.ebaocloud.sample.Main                : No active profile set, falling back to default profiles: default
+2017-05-03 16:02:31.384  INFO 26704 --- [main] com.ebaocloud.sample.Main                : running test: compare_travel
+2017-05-03 16:02:31.393  INFO 26704 --- [main] com.ebaocloud.sample.Main                : Started Main in 1.415 seconds (JVM running for 1.804)
+2017-05-03 16:23:49.089  INFO 27858 --- [main] com.ebaocloud.sample.Main                : Starting Main on ubuntu with PID 27858 (/home/ggg/eBaoCloud-SEA/Sample/api-sample/build/classes/main started by ggg in /home/ggg/eBaoCloud-SEA/Sample/api-sample)
+2017-05-03 16:23:49.092  INFO 27858 --- [main] com.ebaocloud.sample.Main                : No active profile set, falling back to default profiles: default
+2017-05-03 16:23:50.072  INFO 27858 --- [main] com.ebaocloud.sample.Main                : running test: compare_travel
+2017-05-03 16:23:50.076  INFO 27858 --- [main] com.ebaocloud.sample.Main                : Started Main in 1.299 seconds (JVM running for 1.659)
+2017-05-03 16:24:28.444  INFO 27922 --- [main] com.ebaocloud.sample.Main                : Starting Main on ubuntu with PID 27922 (/home/ggg/eBaoCloud-SEA/Sample/api-sample/build/classes/main started by ggg in /home/ggg/eBaoCloud-SEA/Sample/api-sample)
+2017-05-03 16:24:28.448  INFO 27922 --- [main] com.ebaocloud.sample.Main                : No active profile set, falling back to default profiles: default
+2017-05-03 16:24:29.358  INFO 27922 --- [main] com.ebaocloud.sample.Main                : running test: compare_travel
+2017-05-03 16:24:31.301  INFO 27922 --- [main] com.ebaocloud.sample.pub.Authentication  : logged in
+2017-05-03 16:24:31.303  INFO 27922 --- [main] com.ebaocloud.sample.Main                : Started Main in 3.22 seconds (JVM running for 3.589)
+2017-05-03 16:27:04.061  INFO 28011 --- [main] com.ebaocloud.sample.Main                : Starting Main on ubuntu with PID 28011 (/home/ggg/eBaoCloud-SEA/Sample/api-sample/build/classes/main started by ggg in /home/ggg/eBaoCloud-SEA/Sample/api-sample)
+2017-05-03 16:27:04.065  INFO 28011 --- [main] com.ebaocloud.sample.Main                : No active profile set, falling back to default profiles: default
+2017-05-03 16:27:05.029  INFO 28011 --- [main] com.ebaocloud.sample.Main                : running test case: compare_travel
+2017-05-03 16:27:05.730  INFO 28011 --- [main] com.ebaocloud.sample.pub.Authentication  : logged in
+2017-05-03 16:27:05.731  INFO 28011 --- [main] com.ebaocloud.sample.Main                : Started Main in 1.994 seconds (JVM running for 2.349)
+2017-05-03 16:54:53.980  INFO 28698 --- [main] com.ebaocloud.sample.Main                : Starting Main on ubuntu with PID 28698 (/home/ggg/eBaoCloud-SEA/Sample/api-sample/build/classes/main started by ggg in /home/ggg/eBaoCloud-SEA/Sample/api-sample)
+2017-05-03 16:54:53.984  INFO 28698 --- [main] com.ebaocloud.sample.Main                : No active profile set, falling back to default profiles: default
+2017-05-03 16:54:55.201  INFO 28698 --- [main] com.ebaocloud.sample.Main                : running test case: compare_travel
+2017-05-03 16:54:56.322  INFO 28698 --- [main] com.ebaocloud.sample.pub.Authentication  : logged in
+2017-05-03 16:54:57.866  INFO 28698 --- [main] c.e.sample.comparequotes.CompareTravel   : {
+    "eligiblePlans": [
+        "insurer=DEMO_TH/plan=SAB/product=PTFA/premium=3200.0000/uwNeeded=false",
+        "insurer=DEMO_TH/plan=SABP/product=PTFA/premium=8600.0000/uwNeeded=false",
+        "insurer=DEMO_TH/plan=MAN/product=PTFA/premium=8000.0000/uwNeeded=false",
+        "insurer=DEMO_TH/plan=MANP/product=PTFA/premium=13400.0000/uwNeeded=false"
+    ],
+    "success": true,
+    "costInSecond": 1,
+    "message": null
+}
+2017-05-03 16:54:57.867  INFO 28698 --- [main] com.ebaocloud.sample.Main                : Started Main in 4.219 seconds (JVM running for 4.614)
+2017-05-03 16:55:51.978  INFO 28773 --- [main] com.ebaocloud.sample.Main                : Starting Main on ubuntu with PID 28773 (/home/ggg/eBaoCloud-SEA/Sample/api-sample/build/classes/main started by ggg in /home/ggg/eBaoCloud-SEA/Sample/api-sample)
+2017-05-03 16:55:51.981  INFO 28773 --- [main] com.ebaocloud.sample.Main                : No active profile set, falling back to default profiles: default
+2017-05-03 16:55:53.181  INFO 28773 --- [main] com.ebaocloud.sample.Main                : running test case: compare_travel
+2017-05-03 16:55:53.856  INFO 28773 --- [main] com.ebaocloud.sample.pub.Authentication  : logged in
+2017-05-03 16:55:54.240  INFO 28773 --- [main] c.e.sample.comparequotes.CompareTravel   : {
+    "eligiblePlans": [
+        "insurer=DEMO_TH / plan=SAB / product=PTFA / premium=3200.0000 / uwNeeded=false",
+        "insurer=DEMO_TH / plan=SABP / product=PTFA / premium=8600.0000 / uwNeeded=false",
+        "insurer=DEMO_TH / plan=MAN / product=PTFA / premium=8000.0000 / uwNeeded=false",
+        "insurer=DEMO_TH / plan=MANP / product=PTFA / premium=13400.0000 / uwNeeded=false"
+    ],
+    "success": true,
+    "costInSecond": 0,
+    "message": null
+}
+2017-05-03 16:55:54.242  INFO 28773 --- [main] com.ebaocloud.sample.Main                : Started Main in 2.602 seconds (JVM running for 3.002)
+2017-05-03 16:56:27.110  INFO 28834 --- [main] com.ebaocloud.sample.Main                : Starting Main on ubuntu with PID 28834 (/home/ggg/eBaoCloud-SEA/Sample/api-sample/build/classes/main started by ggg in /home/ggg/eBaoCloud-SEA/Sample/api-sample)
+2017-05-03 16:56:27.113  INFO 28834 --- [main] com.ebaocloud.sample.Main                : No active profile set, falling back to default profiles: default
+2017-05-03 16:56:28.424  INFO 28834 --- [main] com.ebaocloud.sample.Main                : running test case: compare_travel
+2017-05-03 16:56:29.108  INFO 28834 --- [main] com.ebaocloud.sample.pub.Authentication  : logged in
+2017-05-03 16:56:29.349  INFO 28834 --- [main] c.e.sample.comparequotes.CompareTravel   : Compare Travel: completed
+2017-05-03 16:56:29.368  INFO 28834 --- [main] c.e.sample.comparequotes.CompareTravel   : {
+    "eligiblePlans": [
+        "insurer=DEMO_TH / plan=SAB / product=PTFA / premium=3200.0000 / uwNeeded=false",
+        "insurer=DEMO_TH / plan=SABP / product=PTFA / premium=8600.0000 / uwNeeded=false",
+        "insurer=DEMO_TH / plan=MAN / product=PTFA / premium=8000.0000 / uwNeeded=false",
+        "insurer=DEMO_TH / plan=MANP / product=PTFA / premium=13400.0000 / uwNeeded=false"
+    ],
+    "success": true,
+    "costInSecond": 0,
+    "message": null
+}
+2017-05-03 16:56:29.370  INFO 28834 --- [main] com.ebaocloud.sample.Main                : Started Main in 2.588 seconds (JVM running for 2.942)
+2017-05-03 16:58:08.353  INFO 28969 --- [main] com.ebaocloud.sample.Main                : Starting Main on ubuntu with PID 28969 (/home/ggg/eBaoCloud-SEA/Sample/api-sample/build/classes/main started by ggg in /home/ggg/eBaoCloud-SEA/Sample/api-sample)
+2017-05-03 16:58:08.357  INFO 28969 --- [main] com.ebaocloud.sample.Main                : No active profile set, falling back to default profiles: default
+2017-05-03 16:58:09.558  INFO 28969 --- [main] com.ebaocloud.sample.Main                : running test case: compare_travel
+2017-05-03 16:58:10.251  INFO 28969 --- [main] com.ebaocloud.sample.pub.Authentication  : logged in
+2017-05-03 16:58:10.462  INFO 28969 --- [main] c.e.sample.comparequotes.CompareTravel   : Compare Travel: completed
+2017-05-03 16:58:10.483  INFO 28969 --- [main] c.e.sample.comparequotes.CompareTravel   : {
+    "eligiblePlans": [
+        "insurer=DEMO_TH / plan=SAB / product=PTFA / premium=3200.0000 / uwNeeded=false",
+        "insurer=DEMO_TH / plan=SABP / product=PTFA / premium=8600.0000 / uwNeeded=false",
+        "insurer=DEMO_TH / plan=MAN / product=PTFA / premium=8000.0000 / uwNeeded=false",
+        "insurer=DEMO_TH / plan=MANP / product=PTFA / premium=13400.0000 / uwNeeded=false"
+    ],
+    "success": true,
+    "costInSecond": 0,
+    "message": null
+}
+2017-05-03 16:58:10.484  INFO 28969 --- [main] com.ebaocloud.sample.Main                : Started Main in 2.507 seconds (JVM running for 2.897)
+2017-05-03 16:58:26.807  INFO 29193 --- [main] com.ebaocloud.sample.Main                : Starting Main on ubuntu with PID 29193 (/home/ggg/eBaoCloud-SEA/Sample/api-sample/build/classes/main started by ggg in /home/ggg/eBaoCloud-SEA/Sample/api-sample)
+2017-05-03 16:58:26.811  INFO 29193 --- [main] com.ebaocloud.sample.Main                : No active profile set, falling back to default profiles: default
+2017-05-03 16:58:28.023  INFO 29193 --- [main] com.ebaocloud.sample.Main                : running test case: compare_travel
+2017-05-03 16:58:28.716  INFO 29193 --- [main] com.ebaocloud.sample.pub.Authentication  : logged in
+2017-05-03 16:58:28.906  INFO 29193 --- [main] c.e.sample.comparequotes.CompareTravel   : Compare Travel: completed
+2017-05-03 16:58:28.924  INFO 29193 --- [main] c.e.sample.comparequotes.CompareTravel   : {
+    "eligiblePlans": [
+        "insurer=DEMO_TH / plan=SAB / product=PTFA / premium=3200.0000 / uwNeeded=false",
+        "insurer=DEMO_TH / plan=SABP / product=PTFA / premium=8600.0000 / uwNeeded=false",
+        "insurer=DEMO_TH / plan=MAN / product=PTFA / premium=8000.0000 / uwNeeded=false",
+        "insurer=DEMO_TH / plan=MANP / product=PTFA / premium=13400.0000 / uwNeeded=false"
+    ],
+    "success": true,
+    "costInMillis": 189,
+    "message": null
+}
+2017-05-03 16:58:28.926  INFO 29193 --- [main] com.ebaocloud.sample.Main                : Started Main in 2.445 seconds (JVM running for 2.813)
+2017-05-03 16:58:41.988  INFO 29254 --- [main] com.ebaocloud.sample.Main                : Starting Main on ubuntu with PID 29254 (/home/ggg/eBaoCloud-SEA/Sample/api-sample/build/classes/main started by ggg in /home/ggg/eBaoCloud-SEA/Sample/api-sample)
+2017-05-03 16:58:41.992  INFO 29254 --- [main] com.ebaocloud.sample.Main                : No active profile set, falling back to default profiles: default
+2017-05-03 16:58:43.227  INFO 29254 --- [main] com.ebaocloud.sample.Main                : running test case: compare_travel
+2017-05-03 16:58:43.903  INFO 29254 --- [main] com.ebaocloud.sample.pub.Authentication  : logged in
+2017-05-03 16:58:44.140  INFO 29254 --- [main] c.e.sample.comparequotes.CompareTravel   : Compare Travel: completed
+2017-05-03 16:58:44.156  INFO 29254 --- [main] c.e.sample.comparequotes.CompareTravel   : {
+    "eligiblePlans": [
+        "insurer=DEMO_TH / plan=SAB / product=PTFA / premium=3200.0000 / uwNeeded=false",
+        "insurer=DEMO_TH / plan=SABP / product=PTFA / premium=8600.0000 / uwNeeded=false",
+        "insurer=DEMO_TH / plan=MAN / product=PTFA / premium=8000.0000 / uwNeeded=false",
+        "insurer=DEMO_TH / plan=MANP / product=PTFA / premium=13400.0000 / uwNeeded=false"
+    ],
+    "success": true,
+    "costInMillis": 237,
+    "message": null
+}
+2017-05-03 16:58:44.158  INFO 29254 --- [main] com.ebaocloud.sample.Main                : Started Main in 2.523 seconds (JVM running for 2.878)
+2017-05-03 17:41:04.815  INFO 29693 --- [main] com.ebaocloud.sample.Main                : Starting Main on ubuntu with PID 29693 (/home/ggg/eBaoCloud-SEA/Sample/api-sample/build/classes/main started by ggg in /home/ggg/eBaoCloud-SEA/Sample/api-sample)
+2017-05-03 17:41:04.819  INFO 29693 --- [main] com.ebaocloud.sample.Main                : No active profile set, falling back to default profiles: default
+2017-05-03 17:41:06.413  INFO 29693 --- [main] com.ebaocloud.sample.Main                : running test case: compare_motor
+2017-05-03 17:41:07.139  INFO 29693 --- [main] com.ebaocloud.sample.pub.Authentication  : logged in
+2017-05-03 17:41:07.421  INFO 29693 --- [main] c.e.sample.comparequotes.CompareTravel   : Compare Travel: completed
+2017-05-03 17:41:07.437  INFO 29693 --- [main] c.e.sample.comparequotes.CompareTravel   : {
+    "eligiblePlans": [
+        "insurer=DEMO_TH / plan=SAB / product=PTFA / premium=3200.0000 / uwNeeded=false",
+        "insurer=DEMO_TH / plan=SABP / product=PTFA / premium=8600.0000 / uwNeeded=false",
+        "insurer=DEMO_TH / plan=MAN / product=PTFA / premium=8000.0000 / uwNeeded=false",
+        "insurer=DEMO_TH / plan=MANP / product=PTFA / premium=13400.0000 / uwNeeded=false"
+    ],
+    "success": true,
+    "costInMillis": 281,
+    "message": null
+}
+2017-05-03 17:41:07.440  INFO 29693 --- [main] com.ebaocloud.sample.Main                : Started Main in 2.958 seconds (JVM running for 3.357)
+2017-05-03 17:41:57.856  INFO 29778 --- [main] com.ebaocloud.sample.Main                : Starting Main on ubuntu with PID 29778 (/home/ggg/eBaoCloud-SEA/Sample/api-sample/build/classes/main started by ggg in /home/ggg/eBaoCloud-SEA/Sample/api-sample)
+2017-05-03 17:41:57.860  INFO 29778 --- [main] com.ebaocloud.sample.Main                : No active profile set, falling back to default profiles: default
+2017-05-03 17:41:59.168  INFO 29778 --- [main] com.ebaocloud.sample.Main                : running test case: compare_motor
+2017-05-03 17:41:59.873  INFO 29778 --- [main] com.ebaocloud.sample.pub.Authentication  : logged in
+2017-05-03 17:42:00.949  INFO 29778 --- [main] c.e.sample.comparequotes.CompareTravel   : Compare Travel: completed
+2017-05-03 17:42:00.966  INFO 29778 --- [main] c.e.sample.comparequotes.CompareTravel   : {
+    "eligiblePlans": "no eligible plan found",
+    "success": true,
+    "costInMillis": 1076,
+    "message": null
+}
+2017-05-03 17:42:00.967  INFO 29778 --- [main] com.ebaocloud.sample.Main                : Started Main in 3.447 seconds (JVM running for 3.819)
+2017-05-03 17:43:49.804  INFO 29862 --- [main] com.ebaocloud.sample.Main                : Starting Main on ubuntu with PID 29862 (/home/ggg/eBaoCloud-SEA/Sample/api-sample/build/classes/main started by ggg in /home/ggg/eBaoCloud-SEA/Sample/api-sample)
+2017-05-03 17:43:49.813  INFO 29862 --- [main] com.ebaocloud.sample.Main                : No active profile set, falling back to default profiles: default
+2017-05-03 17:43:51.025  INFO 29862 --- [main] com.ebaocloud.sample.Main                : running test case: compare_motor
+2017-05-03 17:43:51.728  INFO 29862 --- [main] com.ebaocloud.sample.pub.Authentication  : logged in
+2017-05-03 17:43:52.125  INFO 29862 --- [main] c.e.sample.comparequotes.CompareTravel   : Compare Travel: completed
+2017-05-03 17:43:52.143  INFO 29862 --- [main] c.e.sample.comparequotes.CompareTravel   : {
+    "eligiblePlans": [
+        "insurer=DEMO2_TH / plan=CLASSIC / product=VMI / premium=2188.75 / uwNeeded=false"
+    ],
+    "success": true,
+    "costInMillis": 397,
+    "message": null
+}
+2017-05-03 17:43:52.145  INFO 29862 --- [main] com.ebaocloud.sample.Main                : Started Main in 2.721 seconds (JVM running for 3.122)
+2017-05-03 17:44:37.676  INFO 29931 --- [main] com.ebaocloud.sample.Main                : Starting Main on ubuntu with PID 29931 (/home/ggg/eBaoCloud-SEA/Sample/api-sample/build/classes/main started by ggg in /home/ggg/eBaoCloud-SEA/Sample/api-sample)
+2017-05-03 17:44:37.680  INFO 29931 --- [main] com.ebaocloud.sample.Main                : No active profile set, falling back to default profiles: default
+2017-05-03 17:44:39.054  INFO 29931 --- [main] com.ebaocloud.sample.Main                : running test case: compare_motor
+2017-05-03 17:44:39.749  INFO 29931 --- [main] com.ebaocloud.sample.pub.Authentication  : logged in
+2017-05-03 17:44:40.043  INFO 29931 --- [main] c.e.sample.comparequotes.CompareTravel   : Compare Travel: completed
+2017-05-03 17:44:40.066  INFO 29931 --- [main] c.e.sample.comparequotes.CompareTravel   : {
+    "eligiblePlans": [
+        "insurer=DEMO2_TH / plan=CLASSIC / product=VMI / premium=2022.41 / uwNeeded=false"
+    ],
+    "success": true,
+    "costInMillis": 294,
+    "message": null
+}
+2017-05-03 17:44:40.068  INFO 29931 --- [main] com.ebaocloud.sample.Main                : Started Main in 2.744 seconds (JVM running for 3.125)
+2017-05-03 17:44:49.650  INFO 29992 --- [main] com.ebaocloud.sample.Main                : Starting Main on ubuntu with PID 29992 (/home/ggg/eBaoCloud-SEA/Sample/api-sample/build/classes/main started by ggg in /home/ggg/eBaoCloud-SEA/Sample/api-sample)
+2017-05-03 17:44:49.654  INFO 29992 --- [main] com.ebaocloud.sample.Main                : No active profile set, falling back to default profiles: default
+2017-05-03 17:44:50.990  INFO 29992 --- [main] com.ebaocloud.sample.Main                : running test case: compare_motor
+2017-05-03 17:44:51.654  INFO 29992 --- [main] com.ebaocloud.sample.pub.Authentication  : logged in
+2017-05-03 17:44:51.973  INFO 29992 --- [main] c.e.sample.comparequotes.CompareTravel   : Compare Travel: completed
+2017-05-03 17:44:51.989  INFO 29992 --- [main] c.e.sample.comparequotes.CompareTravel   : {
+    "eligiblePlans": "no eligible plan found",
+    "success": true,
+    "costInMillis": 319,
+    "message": null
+}
+2017-05-03 17:44:51.991  INFO 29992 --- [main] com.ebaocloud.sample.Main                : Started Main in 2.7 seconds (JVM running for 3.109)
+2017-05-03 17:53:27.883  INFO 30159 --- [main] com.ebaocloud.sample.Main                : Starting Main on ubuntu with PID 30159 (/home/ggg/eBaoCloud-SEA/Sample/api-sample/build/classes/main started by ggg in /home/ggg/eBaoCloud-SEA/Sample/api-sample)
+2017-05-03 17:53:27.886  INFO 30159 --- [main] com.ebaocloud.sample.Main                : No active profile set, falling back to default profiles: default
+2017-05-03 17:53:29.151  INFO 30159 --- [main] com.ebaocloud.sample.Main                : running test case: compare_motor
+2017-05-03 17:53:29.828  INFO 30159 --- [main] com.ebaocloud.sample.pub.Authentication  : logged in
+2017-05-03 17:53:30.016  INFO 30159 --- [main] c.e.sample.comparequotes.CompareTravel   : Compare Travel: completed
+2017-05-03 17:53:30.034  INFO 30159 --- [main] c.e.sample.comparequotes.CompareTravel   : {
+    "success": false,
+    "costInMillis": 188,
+    "message": "Ambiguous method overloading for method org.apache.commons.lang.ArrayUtils#isEmpty.\nCannot resolve which method to invoke for [null] due to overlapping prototypes between:\n\t[class [B]\n\t[class [C]\n\t[class [D]\n\t[class [F]\n\t[class [I]\n\t[class [J]\n\t[class [Ljava.lang.Object;]\n\t[class [S]\n\t[class [Z]"
+}
+2017-05-03 17:53:30.036  INFO 30159 --- [main] com.ebaocloud.sample.Main                : Started Main in 2.477 seconds (JVM running for 2.89)
+2017-05-03 17:54:38.531  INFO 30238 --- [main] com.ebaocloud.sample.Main                : Starting Main on ubuntu with PID 30238 (/home/ggg/eBaoCloud-SEA/Sample/api-sample/build/classes/main started by ggg in /home/ggg/eBaoCloud-SEA/Sample/api-sample)
+2017-05-03 17:54:38.534  INFO 30238 --- [main] com.ebaocloud.sample.Main                : No active profile set, falling back to default profiles: default
+2017-05-03 17:54:39.745  INFO 30238 --- [main] com.ebaocloud.sample.Main                : running test case: compare_motor
+2017-05-03 17:54:40.429  INFO 30238 --- [main] com.ebaocloud.sample.pub.Authentication  : logged in
+2017-05-03 17:54:40.970  INFO 30238 --- [main] c.e.sample.comparequotes.CompareTravel   : Compare Travel: completed
+2017-05-03 17:54:40.989  INFO 30238 --- [main] c.e.sample.comparequotes.CompareTravel   : {
+    "eligiblePlans": [
+        "insurer=DEMO_TH / plan=CLASS3 / product=VMI / premium=4032.72 / uwNeeded=false",
+        "insurer=DEMO_TH / plan=CLASS2+ / product=VMI / premium=8000.39 / uwNeeded=false",
+        "insurer=DEMO_TH / plan=CLASS2+NODD / product=VMI / premium=8399.50 / uwNeeded=false",
+        "insurer=DEMO_TH / plan=CLASS3+ / product=VMI / premium=7300.61 / uwNeeded=false",
+        "insurer=DEMO_TH / plan=CLASS3+NODD / product=VMI / premium=7499.63 / uwNeeded=false",
+        "insurer=DEMO2_TH / plan=CLASS3 / product=VMI / premium=4032.83 / uwNeeded=false",
+        "insurer=DEMO2_TH / plan=CLASS2+ / product=VMI / premium=2400.12 / uwNeeded=false",
+        "insurer=DEMO2_TH / plan=CLASS2+NODD / product=VMI / premium=5459.89 / uwNeeded=false",
+        "insurer=DEMO2_TH / plan=CLASS3+ / product=VMI / premium=2190.83 / uwNeeded=false",
+        "insurer=DEMO2_TH / plan=CLASS3+NODD / product=VMI / premium=5624.72 / uwNeeded=false"
+    ],
+    "success": true,
+    "costInMillis": 539,
+    "message": null
+}
+2017-05-03 17:54:40.990  INFO 30238 --- [main] com.ebaocloud.sample.Main                : Started Main in 2.766 seconds (JVM running for 3.143)
+2017-05-03 17:55:40.193  INFO 30317 --- [main] com.ebaocloud.sample.Main                : Starting Main on ubuntu with PID 30317 (/home/ggg/eBaoCloud-SEA/Sample/api-sample/build/classes/main started by ggg in /home/ggg/eBaoCloud-SEA/Sample/api-sample)
+2017-05-03 17:55:40.197  INFO 30317 --- [main] com.ebaocloud.sample.Main                : No active profile set, falling back to default profiles: default
+2017-05-03 17:55:41.565  INFO 30317 --- [main] com.ebaocloud.sample.Main                : running test case: compare_motor
+2017-05-03 17:55:42.290  INFO 30317 --- [main] com.ebaocloud.sample.pub.Authentication  : logged in
+2017-05-03 17:55:42.520  INFO 30317 --- [main] c.e.sample.comparequotes.CompareTravel   : Compare Travel: completed
+2017-05-03 17:55:42.548  INFO 30317 --- [main] c.e.sample.comparequotes.CompareTravel   : {
+    "eligiblePlans": [
+        "insurer=DEMO_TH / plan=CLASS3 / product=VMI / premium=4032.72 / uwNeeded=false",
+        "insurer=DEMO_TH / plan=CLASS2+ / product=VMI / premium=8000.39 / uwNeeded=false",
+        "insurer=DEMO_TH / plan=CLASS2+NODD / product=VMI / premium=8399.50 / uwNeeded=false",
+        "insurer=DEMO_TH / plan=CLASS3+ / product=VMI / premium=7300.61 / uwNeeded=false",
+        "insurer=DEMO_TH / plan=CLASS3+NODD / product=VMI / premium=7499.63 / uwNeeded=false",
+        "insurer=DEMO2_TH / plan=CLASS3 / product=VMI / premium=4032.83 / uwNeeded=false",
+        "insurer=DEMO2_TH / plan=CLASS2+ / product=VMI / premium=2400.12 / uwNeeded=false",
+        "insurer=DEMO2_TH / plan=CLASS2+NODD / product=VMI / premium=5459.89 / uwNeeded=false",
+        "insurer=DEMO2_TH / plan=CLASS3+ / product=VMI / premium=2190.83 / uwNeeded=false",
+        "insurer=DEMO2_TH / plan=CLASS3+NODD / product=VMI / premium=5624.72 / uwNeeded=false"
+    ],
+    "success": true,
+    "costInMillis": 229,
+    "message": null
+}
+2017-05-03 17:55:42.550  INFO 30317 --- [main] com.ebaocloud.sample.Main                : Started Main in 2.716 seconds (JVM running for 3.096)
+2017-05-03 17:57:24.856  INFO 30394 --- [main] com.ebaocloud.sample.Main                : Starting Main on ubuntu with PID 30394 (/home/ggg/eBaoCloud-SEA/Sample/api-sample/build/classes/main started by ggg in /home/ggg/eBaoCloud-SEA/Sample/api-sample)
+2017-05-03 17:57:24.859  INFO 30394 --- [main] com.ebaocloud.sample.Main                : No active profile set, falling back to default profiles: default
+2017-05-03 17:57:26.132  INFO 30394 --- [main] com.ebaocloud.sample.Main                : running test case: compare_travel
+2017-05-03 17:57:26.780  INFO 30394 --- [main] com.ebaocloud.sample.pub.Authentication  : logged in
+2017-05-03 17:57:27.180  INFO 30394 --- [main] c.e.sample.comparequotes.CompareTravel   : Compare Travel: completed
+2017-05-03 17:57:27.204  INFO 30394 --- [main] c.e.sample.comparequotes.CompareTravel   : {
+    "eligiblePlans": [
+        "insurer=DEMO_TH / plan=SAB / product=PTFA / premium=3200.0000 / uwNeeded=false",
+        "insurer=DEMO_TH / plan=SABP / product=PTFA / premium=8600.0000 / uwNeeded=false",
+        "insurer=DEMO_TH / plan=MAN / product=PTFA / premium=8000.0000 / uwNeeded=false",
+        "insurer=DEMO_TH / plan=MANP / product=PTFA / premium=13400.0000 / uwNeeded=false"
+    ],
+    "success": true,
+    "costInMillis": 400,
+    "message": null
+}
+2017-05-03 17:57:27.205  INFO 30394 --- [main] com.ebaocloud.sample.Main                : Started Main in 2.695 seconds (JVM running for 3.078)
