@@ -26,7 +26,7 @@ Here assuming you already got the authorized username & password, when you run t
 
 If you are writing your own code to call eBaoCloud API,
 **login** API must be called, once you called successfully,
-a **token** will be return from server.
+a **token** will be returned from server.
 You must make sure **token** is safe and DO NOT share to anyone.
 eBaoCloud will use token to do authentication.
 
@@ -35,6 +35,12 @@ For the details, you may refer to source code.
 Alternatively, you can put your username & password
 to the src/main/resources/application.properties,
 if that's the case, the 2 parameters is not required in the commandline anymore.
+
+##### Tips
+**login** is not necessary to do every time, when a token
+is returned, actually your system could keep it somewhere with safety,
+could be memory or database, next time, you can using the token to make other API calls.
+By doing this, the performance will be much better.
 
 ### Build the sample
 
@@ -192,13 +198,6 @@ PM> ./ebaocloud/bin/api-sample --testcase=compare_motor --ebaocould.username=YOU
 
 The result of compare quotes printed on screen is not the real format of API response, it's just formatted for you to read easier.
 For the real format of response, please refer to eBaoCloud Developer Guide(under construction).
-
-In the above samples, there is a optional step called "Login", please be note that
-before you can make a successful call, Login is the must,
-but it's not necessary to do it every time, once you have called Login API, a token
-will be returned, actually your system could keep it somewhere with safety,
-could be memory or database, next time, you can using the token to make other API calls.
-By doing this, the performance will be much better.
 
 The stored token should be updated with new one regularly, the recommended frequency is one day.
 
