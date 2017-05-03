@@ -14,6 +14,28 @@ Licensed under the Apache License 2.0.
 - Compare quotes for Travel
 - Compare quotes for Motor
 
+### Login
+
+Before you run the sample, an authorized username & password should be assigned, if you don't right now, please contact at thsupport@ebaotech.com
+
+Here assuming you already got the authorized username & password, when you run the sample you should always add following 2 parameters:
+
+```
+--ebaocould.username=YOUR_USERNAME --ebaocould.password=YOUR_PWD
+```
+
+If you are writing your own code to call eBaoCloud API,
+**login** API must be called, once you called successfully,
+a **token** will be return from server.
+You must make sure **token** is safe and DO NOT share to anyone.
+eBaoCloud will use token to do authentication.
+
+For the details, you may refer to source code.
+
+Alternatively, you can put your username & password
+to the src/main/resources/application.properties,
+if that's the case, the 2 parameters is not required in the commandline anymore.
+
 ### Build the sample
 
 Note: we are using **Gradle** to build this project,
@@ -111,7 +133,7 @@ As of now, you already got the executable of eBaoCloud API Sample, to get the us
 
 ```#Bash
 PM> ./ebaocloud/bin/api-sample --help
-PM> ./ebaocloud/bin/api-sample --testcase=compare_travel
+PM> ./ebaocloud/bin/api-sample --testcase=compare_travel --ebaocould.username=YOUR_USERNAME --ebaocould.password=YOUR_PWD
 
 ```
 
@@ -122,7 +144,7 @@ Following chapter will describe what is the test cases you can run.
 - Compare quotes for Travel:
 
 ```#Bash
-PM> ./ebaocloud/bin/api-sample --testcase=compare_travel
+PM> ./ebaocloud/bin/api-sample --testcase=compare_travel --ebaocould.username=YOUR_USERNAME --ebaocould.password=YOUR_PWD
 
 ""2017-05-03 19:20:52 - running test case: compare_travel
 ""2017-05-03 19:20:54 - logged in
@@ -144,7 +166,7 @@ PM> ./ebaocloud/bin/api-sample --testcase=compare_travel
 - Compare quotes for Motor:
 
 ```#Bash
-PM> ./ebaocloud/bin/api-sample --testcase=compare_motor
+PM> ./ebaocloud/bin/api-sample --testcase=compare_motor --ebaocould.username=YOUR_USERNAME --ebaocould.password=YOUR_PWD
 
 ""2017-05-03 19:21:47 - running test case: compare_motor
 ""2017-05-03 19:21:48 - logged in

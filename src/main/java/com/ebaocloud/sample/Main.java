@@ -50,8 +50,6 @@ public class Main {
         return args -> {
             if (args == null || args.length == 0) {
                 printUsage();
-            } else if (args.length != 1) {
-                logger.info("ERROR: invalid args");
             } else if (args[0].trim().equalsIgnoreCase("--help")) {
                 printUsage();
             } else if (args[0].trim().toLowerCase().startsWith("--testcase=")) {
