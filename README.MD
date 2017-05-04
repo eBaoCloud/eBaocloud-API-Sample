@@ -16,7 +16,7 @@ Licensed under the Apache License 2.0.
 
 ### Login
 
-Before you run the sample, an authorized username & password should be assigned, if you don't right now, please contact at thsupport@ebaotech.com
+Before you run the sample, an authorized username & password should be assigned, if you don't right now, please contact at thsupport@ebaocloud.com
 
 Here assuming you already got the authorized username & password, when you run the sample you should always add following 2 parameters:
 
