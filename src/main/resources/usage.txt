@@ -15,6 +15,9 @@ OPTIONS
        To run the test scenarios:
           api-sample --testcase=compare_travel
 
+       To run the test scenarios with given username & password:
+          api-sample --testcase=compare_travel --ebaocould.username=YOUR_USERNAME --ebaocould.password=YOUR_PWD
+
 TESTCASES
        compare_travel: use pre-defined parameters to call "Compare Quotes for Travel" API from eBaoCloud Thailand, and print the formatted result
 
