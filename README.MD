@@ -139,8 +139,12 @@ As of now, you already got the executable of eBaoCloud API Sample, to get the us
 
 ```#Bash
 PM> ./ebaocloud/bin/api-sample --help
-PM> ./ebaocloud/bin/api-sample --testcase=compare_travel --ebaocloud.username=YOUR_USERNAME --ebaocloud.password=YOUR_PWD
+```
 
+Run test case:
+
+```#Bash
+PM> ./ebaocloud/bin/api-sample --testcase=compare_travel --ebaocloud.username=YOUR_USERNAME --ebaocloud.password=YOUR_PWD
 ```
 
 Following chapter will describe what is the test cases you can run.
