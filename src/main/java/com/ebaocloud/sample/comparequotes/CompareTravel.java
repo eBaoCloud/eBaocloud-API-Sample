@@ -45,7 +45,7 @@ public class CompareTravel {
 
         RestTemplate restTemplate = new RestTemplate();
 
-        Map<String, Object> params = new HashMap();
+        Map<String, Object> params = new HashMap<>();
         params.put("destCountryCode", "ALD");
         params.put("departureDate", Utils.toChar(DateMidnight.now().plusDays(1).toDate(), "dd/MM/yyyy'T'HH:mm:ss.SSS"));
         params.put("returnDate", Utils.toChar(DateMidnight.now().plusDays(7).toDate(), "dd/MM/yyyy'T'HH:mm:ss.SSS"));

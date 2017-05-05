@@ -21,7 +21,7 @@ Before you run the sample, an authorized username & password should be assigned,
 Here assuming you already got the authorized username & password, when you run the sample you should always add following 2 parameters:
 
 ```
---ebaocould.username=YOUR_USERNAME --ebaocould.password=YOUR_PWD
+--ebaocloud.username=YOUR_USERNAME --ebaocloud.password=YOUR_PWD
 ```
 
 If you are writing your own code to call eBaoCloud API,
@@ -139,7 +139,7 @@ As of now, you already got the executable of eBaoCloud API Sample, to get the us
 
 ```#Bash
 PM> ./ebaocloud/bin/api-sample --help
-PM> ./ebaocloud/bin/api-sample --testcase=compare_travel --ebaocould.username=YOUR_USERNAME --ebaocould.password=YOUR_PWD
+PM> ./ebaocloud/bin/api-sample --testcase=compare_travel --ebaocloud.username=YOUR_USERNAME --ebaocloud.password=YOUR_PWD
 
 ```
 
@@ -150,7 +150,7 @@ Following chapter will describe what is the test cases you can run.
 - Compare quotes for Travel:
 
 ```#Bash
-PM> ./ebaocloud/bin/api-sample --testcase=compare_travel --ebaocould.username=YOUR_USERNAME --ebaocould.password=YOUR_PWD
+PM> ./ebaocloud/bin/api-sample --testcase=compare_travel --ebaocloud.username=YOUR_USERNAME --ebaocloud.password=YOUR_PWD
 
 ""2017-05-03 19:20:52 - running test case: compare_travel
 ""2017-05-03 19:20:54 - logged in
@@ -172,7 +172,7 @@ PM> ./ebaocloud/bin/api-sample --testcase=compare_travel --ebaocould.username=YO
 - Compare quotes for Motor:
 
 ```#Bash
-PM> ./ebaocloud/bin/api-sample --testcase=compare_motor --ebaocould.username=YOUR_USERNAME --ebaocould.password=YOUR_PWD
+PM> ./ebaocloud/bin/api-sample --testcase=compare_motor --ebaocloud.username=YOUR_USERNAME --ebaocloud.password=YOUR_PWD
 
 ""2017-05-03 19:21:47 - running test case: compare_motor
 ""2017-05-03 19:21:48 - logged in
