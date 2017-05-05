@@ -180,7 +180,7 @@ PM> ./ebaocloud/bin/api-sample --testcase=compare_motor --ebaocloud.username=YOU
 
 ""2017-05-03 19:21:47 - running test case: compare_motor
 ""2017-05-03 19:21:48 - logged in
-""2017-05-03 19:21:48 - Compare Travel: completed
+""2017-05-03 19:21:48 - Compare Motor: completed
 ""2017-05-03 19:21:48 - {
     "eligiblePlans": [
         "insurer=DEMO_TH / plan=CLASS3 / product=VMI / premium=4032.72 / uwNeeded=false",

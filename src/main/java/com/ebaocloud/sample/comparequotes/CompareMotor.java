@@ -82,7 +82,7 @@ public class CompareMotor {
                 result.put("eligiblePlans", "no eligible plan found");
             }
         }
-        logger.info("Compare Travel: completed");
+        logger.info("Compare Motor: completed");
         logger.info(JsonOutput.prettyPrint(JsonOutput.toJson(result)));
     }
 
